@@ -17,8 +17,8 @@ const Products = () => {
                 products.map(product =>(
                     <div key={product.product_id} className="card bg-base-100 shadow-sm">
   <figure>
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+    <img className="w-full h-50"
+      src={product.product_image}
       alt="Shoes" />
   </figure>
   <div className="card-body">
@@ -41,8 +41,8 @@ const Products = () => {
             <div>
                 <h2 className="font-bold text-purple-800">Key features:</h2>
                 {
-                    product.features_benefits.features.map(feature=>(
-                        <li className="ml-2">{feature}</li>
+                    product.features_benefits.features.map((feature, index)=>(
+                        <li key={index} className="ml-2">{feature}</li>
                     ))
                 }
             </div>
@@ -50,8 +50,8 @@ const Products = () => {
         <div>
                 <h2 className="font-bold text-purple-800">Key Benifits:</h2>
                 {
-                    product.features_benefits.benefits.map(benifit=>(
-                        <li className="ml-2">{benifit}</li>
+                    product.features_benefits.benefits.map((benifit, index)=>(
+                        <li key={index} className="ml-2">{benifit}</li>
                     ))
                 }
             </div>
