@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const Products = () => {
+const Products = ({handleAddToCart}) => {
     const [products, setProducts] = useState([])
 
     // usEffect for the data fetch
@@ -12,7 +12,7 @@ const Products = () => {
 
     console.log(products)
     return (
-        <div className='md:w-1/2 grid grid-cols-1 md:grid-cols-2 gap-8'>
+        <div className='md:w-1/2 grid grid-cols-1 md:grid-cols-2 gap-8 border-2 border-gray-200 rounded-2xl p-4'>
             {
                 products.map(product =>(
                     <div key={product.product_id} className="card bg-base-100 shadow-sm">
@@ -57,7 +57,7 @@ const Products = () => {
             </div>
     </div>
     <div className="card-actions mt-5">
-      <button className="btn w-full bg-purple-600 text-lg text-white font-semibold">Add to Cart</button>
+      <button  onClick={()=> handleAddToCart(product)} className="btn w-full bg-purple-600 text-lg text-white font-semibold">Add to Cart</button>
     </div>
   </div>
 </div>
