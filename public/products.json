@@ -1,0 +1,146 @@
+[
+  {
+    "product_id": 1,
+    "product_name": "Wireless Headphones",
+    "product_details": "Noise-cancelling over-ear wireless headphones",
+    "product_image": "https://example.com/images/headphones.jpg",
+    "price": 99.99,
+    "star": 4.5,
+    "Review": 128,
+    "available": true,
+    "features_benefits": {
+      "features": [
+        "Active noise cancellation",
+        "Bluetooth 5.0 connectivity",
+        "20-hour battery life",
+        "Foldable over-ear design"
+      ],
+      "benefits": [
+        "Immersive listening experience",
+        "Stable wireless connection",
+        "Long-lasting use without frequent charging",
+        "Easy to carry and store"
+      ]
+    }
+  },
+  {
+    "product_id": 2,
+    "product_name": "Smart Watch",
+    "product_details": "Fitness tracking smartwatch with heart rate monitor",
+    "product_image": "https://example.com/images/smartwatch.jpg",
+    "price": 149.99,
+    "star": 4.3,
+    "Review": 256,
+    "available": true,
+    "features_benefits": {
+      "features": [
+        "Heart rate monitoring",
+        "Step and calorie tracking",
+        "Water-resistant design",
+        "Touchscreen display"
+      ],
+      "benefits": [
+        "Helps monitor daily health",
+        "Supports active lifestyle",
+        "Safe to use during workouts",
+        "Easy and intuitive navigation"
+      ]
+    }
+  },
+  {
+    "product_id": 3,
+    "product_name": "Bluetooth Speaker",
+    "product_details": "Portable waterproof Bluetooth speaker",
+    "product_image": "https://example.com/images/speaker.jpg",
+    "price": 59.99,
+    "star": 4.6,
+    "Review": 342,
+    "available": false,
+    "features_benefits": {
+      "features": [
+        "Waterproof body",
+        "High-quality sound output",
+        "Wireless Bluetooth connection",
+        "Compact portable size"
+      ],
+      "benefits": [
+        "Perfect for outdoor use",
+        "Clear and powerful audio",
+        "Easy wireless pairing",
+        "Carry anywhere with ease"
+      ]
+    }
+  },
+  {
+    "product_id": 4,
+    "product_name": "Gaming Mouse",
+    "product_details": "RGB wired gaming mouse with adjustable DPI",
+    "product_image": "https://example.com/images/mouse.jpg",
+    "price": 39.99,
+    "star": 4.4,
+    "Review": 198,
+    "available": true,
+    "features_benefits": {
+      "features": [
+        "Adjustable DPI settings",
+        "RGB lighting effects",
+        "Ergonomic grip",
+        "High-precision sensor"
+      ],
+      "benefits": [
+        "Improved gaming accuracy",
+        "Customizable visual style",
+        "Comfortable for long sessions",
+        "Faster response time"
+      ]
+    }
+  },
+  {
+    "product_id": 5,
+    "product_name": "Laptop Backpack",
+    "product_details": "Water-resistant backpack fits up to 15.6-inch laptops",
+    "product_image": "https://example.com/images/backpack.jpg",
+    "price": 45.00,
+    "star": 4.2,
+    "Review": 87,
+    "available": true,
+    "features_benefits": {
+      "features": [
+        "Water-resistant fabric",
+        "Padded laptop compartment",
+        "Multiple storage pockets",
+        "Adjustable shoulder straps"
+      ],
+      "benefits": [
+        "Protects devices from rain",
+        "Prevents laptop damage",
+        "Keeps items well organized",
+        "Comfortable to carry daily"
+      ]
+    }
+  },
+  {
+    "product_id": 6,
+    "product_name": "Wireless Charger",
+    "product_details": "Fast wireless charging pad for smartphones",
+    "product_image": "https://example.com/images/charger.jpg",
+    "price": 24.99,
+    "star": 4.1,
+    "Review": 64,
+    "available": false,
+    "features_benefits": {
+      "features": [
+        "Fast charging support",
+        "Slim compact design",
+        "Non-slip surface",
+        "Universal device compatibility"
+      ],
+      "benefits": [
+        "Saves charging time",
+        "Takes up minimal space",
+        "Keeps phone securely in place",
+        "Works with multiple smartphones"
+      ]
+    }
+  }
+]

@@ -11,7 +11,7 @@ const App = () => {
             {/* banner */}
             <Banner></Banner>
             {/* cards Section */}
-            <section className="my-14 flex gap-4">
+            <section className="my-14 md:flex gap-4">
                 {/* products container*/}
                     <Products></Products>
                 {/* sidebar */}
